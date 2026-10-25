@@ -14,7 +14,7 @@ I built an attack tool to show how a neural network can be fooled by small pixel
 | `src/pgd.py` | PGD attack and comparison with FGSM |
 | `src/adv_train.py` | Adversarial training and robustness comparison |
 | `models/` | Trained weights (`baseline_cnn.pt`, `adv_cnn.pt`) |
-| adversarial_ML_results ' | Output plots |
+| `adversarial_ML_results `| Output plots |
 
 ## How to run it on Google Colab
 
