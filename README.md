@@ -1,12 +1,7 @@
 # Adversarial Machine Learning Simulation
 
-A simulation of how a neural network can be fooled by small pixel changes, and how adversarial training makes it harder to fool.
 
-Everything runs on a model that was trained locally on the public MNIST dataset. No live system, API, or third-party model is used.
-
-## What this project shows
-
-I built an attack tool to show how a neural network can be fooled by small pixel changes. For my defense, I trained a model to resist those attacks on MNIST, and it held up well. I haven't yet tested it on my own project's model, and I'd want to test it against stronger attacks before claiming it's safe.
+I built an attack tool to show how a neural network can be fooled by small pixel changes. For my defense, I trained a model to resist those attacks on MNIST, and it held up well. I haven't yet tested it on my own project's model, and I'd want to test it against stronger attacks before claiming it's safe, Everything runs on a model that was trained locally on the public MNIST dataset. No live system, API, or third-party model is used.
 
 ## Contents
 
