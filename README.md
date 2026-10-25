@@ -50,7 +50,7 @@ Accuracy under attack on MNIST (attack: PGD with 20 steps):
 | 0.20 | 0.37% | 95.67% |
 | 0.30 | 0.00% | 92.81% |
 
-Full details are in `REPORT.md`.
+
 
 ## Limits
 
@@ -59,6 +59,4 @@ Full details are in `REPORT.md`.
 - Results come from one training run with a fixed random seed.
 - The defense has not been tested on any other project's model yet.
 
-## Scope
-
-Attacks are used only on models trained locally for this project, or on public open-weight models run on this machine. They are not used against any live system, API, or model that I do not own or have permission to test.
+.
