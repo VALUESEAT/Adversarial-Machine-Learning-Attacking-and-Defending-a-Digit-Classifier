@@ -1,7 +1,14 @@
 # Adversarial Machine Learning Simulation
 
 
-I built an attack tool to show how a neural network can be fooled by small pixel changes. For my defense, I trained a model to resist those attacks on MNIST, and it held up well. I haven't yet tested it on my own project's model, and I'd want to test it against stronger attacks before claiming it's safe, Everything runs on a model that was trained locally on the public MNIST dataset. No live system, API, or third-party model is used.
+I was searching about a tool that can attack open source ML, deep learning models and 
+what is the defence mechanism that can be applied and trained to prevent these small attacks .
+I have selected a Convolutional Neural Network model from hugging face then deployed and trained the attacking tools and the, Adversarial ML( defend tool) 
+The attacking tools are : FGSM ( Fast gradient sign method ) and PGD ( projected Gradient Descent) these are small tools that represent Torch-attacks ,the attack tool shows how a neural network can be fooled by small pixel changes by using a attacking budget called Epsilon and its a ML exploration rate parameter , and in this problem the attacking budget can be assigned from 0 TO 1 and whenever it gets tuned to be close to 1 the more the neural network pixels reading will be jacked , and the Adversarial ML were responsible for defending these attacks that where happening on the training data that was used on the CNN   MNIST hand written digits , and it held up well. Everything runs on a model that was trained locally on the public MNIST dataset. No live system, API, or third-party model is used
+
+
+
+
 
 ## Contents
 
